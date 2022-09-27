@@ -33,7 +33,7 @@ const Trusted = () => {
           spaceBetween={30}
           slidesPerGroup={2}
           loop={true}
-          loopFillGroupWithBlank={true}
+          centeredSlides={true}
           navigation={true}
           autoplay={{
             delay: 2000,
