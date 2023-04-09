@@ -23,7 +23,7 @@ const InsightFullSec = () => {
       <h1 className="text-center text-[#1E1E1E] text-[45px] font-light mb-[35px]">
         Insightful Reads - <span className="text-[#F48850]">mFilterIt</span>
       </h1>
-      <div>
+      <div data-aos="fade-up">
         <div className=" relative w-[75%] mx-auto">
           <Swiper
             slidesPerView={4}

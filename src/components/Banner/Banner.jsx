@@ -6,10 +6,10 @@ const Banner = () => {
   return (
     <div className="lg:w-[90%] mx-auto mb-20 mt-10">
       <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-20">
-        <div className="lg:w-[50%]">
+        <div className="lg:w-[50%]" data-aos="fade-up-right">
           <img src={BannerImg} alt="" />
         </div>
-        <div className="lg:w-[40%] text-center lg:text-left ">
+        <div className="lg:w-[40%] text-center lg:text-left" data-aos="fade-up-left">
           <div className="text-[45px] leading-[125%]">
             <h1>Marketing.</h1>
             <img src={Line} alt="" className='w-[200px] mx-auto lg:mx-0' />

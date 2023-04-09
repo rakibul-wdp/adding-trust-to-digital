@@ -45,7 +45,7 @@ const Numbers = () => {
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-14">
           {
             numbers.map((number) => (
-              <div key={number.id} className="text-center space-y-3 leading-[112%]">
+              <div key={number.id} className="text-center space-y-3 leading-[112%]" data-aos="flip-left">
                 <h1 className="text-2xl text-[#686868]  font-medium">{number.number}</h1>
                 <div className="bg-[#F48850] w-[150px] h-[2px] mx-auto"></div>
                 <h1 className="text-[20px] text-[#3F3F3F] leading-6">
@@ -57,7 +57,7 @@ const Numbers = () => {
         </div>
 
         <div>
-          <img src={NumbersBanner} alt="" />
+          <img src={NumbersBanner} alt="" data-aos="fade-left" />
         </div>
       </div>
     </div>

@@ -27,7 +27,7 @@ const Trusted = () => {
   return (
     <div>
       <h1 className='mt-40 mb-10 text-[#3F3F3F] text-[35px] text-center font-medium'>Trusted by</h1>
-      <div className="mb-40 relative">
+      <div className="mb-40 relative" data-aos="fade-up">
         <Swiper
           slidesPerView={6}
           spaceBetween={30}

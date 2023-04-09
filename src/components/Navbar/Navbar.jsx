@@ -28,7 +28,7 @@ const Navbar = () => {
   );
 
   return (
-    <div>
+    <div data-aos="fade-down">
       <nav className="h-[70px]  relative  w-full  lg:mb-20 flex items-center">
         <div className="w-[90%] mx-auto">
           <ul className="items-center hidden space-x-8 lg:flex justify-between">

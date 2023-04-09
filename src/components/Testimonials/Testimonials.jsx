@@ -56,7 +56,7 @@ const Testimonials = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 gap-10 py-8 w-[80%] 2xl:w-[70%] mx-auto'>
         {
           testimonials.map((testimonial) => (
-            <div key={testimonial.id} className="border p-10 rounded-lg shadow-md hover:shadow-lg max-w-md">
+            <div key={testimonial.id} className="border p-10 rounded-lg shadow-md hover:shadow-lg max-w-md" data-aos="zoom-in-up">
               <div className="flex items-center gap-5 mb-4">
                 <img
                   src={testimonial.avatar}

@@ -34,7 +34,7 @@ const AboutUs = () => {
 
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 justify-center gap-10 items-center">
 
-        <div className='w-[65%] mx-auto'>
+        <div className='w-[65%] mx-auto' data-aos="fade-right">
           <p>We are the essential tool in a digital marketer’s handbag.
             We are on a mission to create trust, uphold integrity,
             drive growth & value across the digital ecosystem.
@@ -55,7 +55,7 @@ const AboutUs = () => {
         <div className='grid grid-cols-2'>
           {
             aboutUs.map((about) => (
-              <div key={about.id} className='text-center mb-10'>
+              <div key={about.id} className='text-center mb-10' data-aos="flip-left">
                 <img src={about.aboutImg} className='m-auto pb-3' alt="" />
                 <p>
                   {about.aboutName}

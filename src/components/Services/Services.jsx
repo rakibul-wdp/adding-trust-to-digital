@@ -43,7 +43,7 @@ const Services = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         {
           services.map((service) => (
-            <div key={service.id} className="border-2 rounded-3xl flex flex-col lg:flex-row text-center lg:text-left justify-center items-center gap-2 p-10 py-14">
+            <div key={service.id} className="border-2 rounded-3xl flex flex-col lg:flex-row text-center lg:text-left justify-center items-center gap-2 p-10 py-14" data-aos="zoom-in-up">
               <div>
                 <img src={service.servicesLogo} alt="" className={`h-[200px] ${service.id === 1 || service.id === 2 ? "w-[300px]" : "w-[400px]"}`} />
               </div>
