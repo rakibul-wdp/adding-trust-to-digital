@@ -5,6 +5,7 @@ import Numbers from '../../components/Numbers/Numbers';
 import Trusted from '../../components/Trusted/Trusted';
 import Testimonials from '../../components/Testimonials/Testimonials';
 import AboutUs from '../../components/AboutUs/AboutUs';
+import InsightFullSec from '../../components/InsightFullSec/InsightFullSec';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Trusted />
       <Testimonials />
       <AboutUs />
+      <InsightFullSec />
     </div>
   );
 };
